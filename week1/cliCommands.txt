@@ -1,0 +1,48 @@
+~~~CREATING HIDDEN FILE OR FOLDER~~~
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ touch .hiddenFile.txt
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ mkdir .hiddenFolder
+
+
+
+~~ ADDING NEW LINE IN FILE~~~
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ touch newFile.txt
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ echo first message >> newFile.txt
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ cat newFile.txt
+first message
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ echo second message >> newFile.txt
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/HYF/hyf-html-exercises/week1/cliCommands
+$ cat newFile.txt
+first message
+second message
+
+
+
+~~~ CREATING NESTED FOLDERS ~~~~
+
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop
+$ mkdir -p This/is/a_new/folder/open/it/
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop
+$ cd This/is/a_new/folder/open/it/
+
+PC@LAPTOP-PACS6OOV MINGW64 ~/Desktop/This/is/a_new/folder/open/it
+$
+
+
+
+
+
