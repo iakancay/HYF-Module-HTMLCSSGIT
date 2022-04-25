@@ -7,7 +7,7 @@ body {
 .wrap {
   width: 50%;
   margin: 10px auto;
-  background-image: url("/paper.png");
+  background-image: url("paper.png");
   padding: 15px;
   border-radius: 5px;
 }
