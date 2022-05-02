@@ -134,6 +134,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   margin-right:50px;
+  flex:1 0;
 }
 .aim-section div.card-box div.card{
   width:45%;
@@ -144,8 +145,7 @@ button {
 .card-box {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
+ 
 }
 
 .card div h2 {
@@ -167,6 +167,46 @@ button {
   width:25%;
 }
 
+footer{
+  background-color: black;
+  color:white;
+  font-size: 14px;
+  padding:40px 100px;
+  
+
+}
+footer>h2,footer>h3,footer>div{
+padding:20px;
+}
+.footer-items{
+  display:flex;
+  flex-wrap: wrap;
+   gap:20px;
+}
+.footer-item{
+  width:20%;
+  flex:1 1;
+}
+.item-list{
+  list-style-type: none;
+  
+}
+.item-list li{
+  padding-top: 10px;
+  font-weight: 100;
+}
+.footer-links{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  gap:10px;
+  
+}
+.footer-links a{
+  color:white;
+}
+
 @media screen and (max-width: 600px) {
   .nav-elements,
   .right-nav > ul > li:nth-child(-n + 3) {
@@ -184,4 +224,5 @@ button {
     width: 100%;
     margin-left: 0px;
   }
+ 
 }
