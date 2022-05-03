@@ -15,6 +15,9 @@ nav {
   color: white;
   padding: 10px 5px;
   font-size: 14px;
+  position:fixed;
+  width:100%;
+  top:0;
 }
 nav ul {
   display: flex;
@@ -56,7 +59,7 @@ nav ul li a:hover{
 .right-nav ul li.menu {
   display: none;
 }
-.signup-section {
+.user-type-section {
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -70,7 +73,6 @@ nav ul li a:hover{
 .type-card {
   background-color: #ffffff;
   width: 40%;
-  height: fit-content;
   margin: 50px 100px;
   padding: 20px;
 }
@@ -81,7 +83,7 @@ nav ul li a:hover{
   border-bottom: 1px solid rgb(201, 200, 200);
   padding: 20px 30px;
 }
-.container {
+.icon-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,10 +221,43 @@ padding:20px;
 
   .uber-type {
     background-image: none;
+    width:80%;
+    margin-top:0px;
   }
   .type-card {
     width: 100%;
-    margin-left: 0px;
+    
   }
+  
+  .business-card{
+    width:80%;
+    
+  }
+  .main div{
+    margin:10px 0px;
+    padding-left:10px;
+  }
+  .aim-section h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding:10px;
+  }
+ 
+  .card{
+    width:90% !important;
+   
+  }
+  footer{
+    padding:10px;
+  }
+  .footer-item{
+    width:50% !important;
+    
+  }
+.card-box{
+  flex-direction: column;
+  
+}
+
  
 }
